@@ -1,0 +1,5 @@
+package com.rxtrack.util;
+
+public class RxTrackLogger {
+
+}

@@ -1,0 +1,25 @@
+package com.rxtrack.ui.dialog;
+
+import org.eclipse.jface.viewers.TreePath;
+import org.eclipse.jface.viewers.Viewer;
+import org.eclipse.ui.dialogs.PatternFilter;
+
+public class CustomPatternFilter extends PatternFilter {
+
+	@Override
+	public Object[] filter(Viewer viewer, Object parentPath, Object[] elements) {
+		Object[] filtered = super.filter(viewer, parentPath, elements);
+		System.out.println("hi");
+		return filtered;
+	}
+	@Override
+	public boolean isElementSelectable(Object element) {
+		// TODO Auto-generated method stub
+		return super.isElementSelectable(element);
+	}
+	@Override
+	public boolean isElementVisible(Viewer viewer, Object element) {
+		// TODO Auto-generated method stub
+		return super.isElementVisible(viewer, element);
+	}
+}

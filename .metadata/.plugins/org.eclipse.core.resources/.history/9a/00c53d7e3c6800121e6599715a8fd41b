@@ -1,0 +1,7 @@
+package com.rxtrack.ui.dialog;
+
+import org.eclipse.ui.dialogs.PatternFilter;
+
+public class CustomPatternFilter extends PatternFilter {
+
+}

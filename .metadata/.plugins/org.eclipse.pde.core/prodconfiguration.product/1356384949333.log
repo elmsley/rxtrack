@@ -1,0 +1,28 @@
+!SESSION 2012-12-24 16:35:48.962 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr10fp1-20120202_101568 (JIT enabled, AOT enabled)
+J9VM - 20120202_101568
+JIT  - r9_20111107_21307ifx1
+GC   - 20120202_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product RxTrack.product
+Command-line arguments:  -product RxTrack.product -data E:\rxtrack_dev/../runtime-prodconfiguration.product -dev file:E:/rxtrack_dev/.metadata/.plugins/org.eclipse.pde.core/prodconfiguration.product/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.osgi 4 0 2012-12-24 16:35:50.510
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: Application "org.eclipse.ant.core.antRunner" could not be found in the registry. The applications available are: org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.equinox.app.error.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:248)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:48)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:600)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)

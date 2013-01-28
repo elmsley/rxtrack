@@ -1,0 +1,17 @@
+1359254788579	Extract constant 'DATE'
+1359254806373	Extract constant 'TIME'
+1359254834522	Extract constant 'RX'
+1359254843938	Extract constant 'MITTE'
+1359254851871	Extract constant 'PICS'
+1359254860485	Extract constant 'SIG'
+1359254869857	Extract constant 'ID'
+1359254879689	Extract constant 'NAME'
+1359254885914	Extract constant 'CITY'
+1359254903542	Extract constant 'BIN'
+1359254915003	Extract constant 'DISPENSED'
+1359254924417	Extract constant 'INVENTORY'
+1359254935930	Extract constant 'DOSAGE'
+1359255076023	Move members
+1359255200533	Move methods
+1359262989819	Delete element
+1359341691197	Copy compilation unit

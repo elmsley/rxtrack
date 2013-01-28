@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="targetName" value="3.5 or greater"/>
+	<item key="osgiProject" value="false"/>
+	<item key="apiAnalysis" value="false"/>
+	<item key="rcpPlugin" value="false"/>
+	<item key="uiPlugin" value="false"/>
+	<item key="generateActivator" value="false"/>
+	<item key="initLaunch" value="false"/>
+	<list key="providers">
+		<item value="Jason Mah"/>
+	</list>
+	<section name="pde_compiler_errorwarnings_block">
+		<item key="0" value="true"/>
+		<item key="1" value="false"/>
+		<item key="2" value="false"/>
+		<item key="3" value="false"/>
+	</section>
+	<section name="pluginsView">
+	</section>
+	<section name="PluginExportWizard">
+		<item key="qualifierName" value="201301202117"/>
+		<item key="allowBinaryCycles" value="true"/>
+		<item key="destination0" value="E:\test2"/>
+		<item key="destination1" value="E:\test2"/>
+		<item key="signJAR" value="false"/>
+		<item key="exportType" value="1"/>
+		<item key="useWorkspaceCompiledClasses" value="false"/>
+		<item key="keystore" value=""/>
+		<item key="exportSource" value="false"/>
+		<item key="keypass" value=""/>
+		<item key="password" value=""/>
+		<item key="qualifier" value="false"/>
+		<item key="alias" value=""/>
+		<item key="exportSourceFormat" value="Generate source bundles"/>
+		<item key="saveAsAnt" value="false"/>
+		<item key="exportUpdate" value="true"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="ProductExportWizard">
+		<item key="allowBinaryCycles" value="false"/>
+		<item key="destination0" value="e:\"/>
+		<item key="destination1" value="e:\"/>
+		<item key="destination2" value="e:\test1"/>
+		<item key="destination3" value="e:\test3"/>
+		<item key="exportDirectory" value="true"/>
+		<item key="productConfig1" value="/RxTrack/prodconfiguration.product"/>
+		<item key="syncProduct" value="true"/>
+		<item key="exportSource" value="false"/>
+		<item key="productConfig2" value="/RxTrack/RxTrack.product"/>
+		<item key="productRoot" value="RxTrack"/>
+		<item key="productConfig0" value="/RxTrack/prodconfiguration.product"/>
+		<item key="p2metadata" value="false"/>
+		<item key="exportSourceFormat" value="Generate source bundles"/>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+			<item key="DIALOG_X_ORIGIN" value="358"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_Y_ORIGIN" value="78"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+		</section>
+	</section>
+</section>

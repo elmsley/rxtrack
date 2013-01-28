@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1356386278536" transient="true" version="3.0">
+<site enabled="true" list="rxtrack_dev/RxTrack/" policy="USER-INCLUDE" updateable="true" url="file:/E:/">
+</site>
+<site enabled="true" list="plugins/org.eclipse.jface.databinding_1.6.0.v20120521-2329.jar,plugins/org.eclipse.core.commands_3.6.1.v20120814-150512.jar,plugins/org.eclipse.e4.core.di_1.1.0.v20120627-124443.jar,plugins/javax.annotation_1.0.0.v20101115-0725.jar,plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,plugins/org.eclipse.emf.ecore.xmi_2.8.0.v20120911-0500.jar,plugins/org.eclipse.equinox.util_1.0.400.v20120522-2049.jar,plugins/org.eclipse.equinox.event_1.2.200.v20120522-2049.jar,plugins/org.eclipse.osgi.services_3.3.100.v20120522-1822.jar,plugins/org.eclipse.e4.ui.css.core_0.10.2.v20120806-171245.jar,plugins/org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar,plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar,plugins/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar,plugins/org.eclipse.emf.ecore.change_2.8.0.v20120911-0500.jar,plugins/org.eclipse.core.expressions_3.4.401.v20120627-124442.jar,plugins/org.eclipse.e4.core.services_1.0.0.v20120521-2346.jar,plugins/org.apache.batik.util_1.6.0.v201011041432.jar,plugins/com.ibm.icu_4.4.2.v20110823.jar,plugins/org.apache.batik.css_1.6.0.v201011041432.jar,plugins/org.w3c.css.sac_1.3.1.v200903091627.jar,plugins/org.eclipse.e4.ui.css.swt_0.10.2.v20120821-165957.jar,plugins/org.w3c.dom.smil_1.0.0.v200806040011.jar,plugins/javax.xml_1.3.4.v201005080400.jar,plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20120521-2329.jar,plugins/org.eclipse.swt.win32.win32.x86_3.100.1.v4234e.jar,plugins/org.eclipse.e4.ui.widgets_0.12.0.v20120905-175524.jar,plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar,plugins/org.eclipse.core.databinding.property_1.4.100.v20120523-1955.jar,plugins/org.eclipse.e4.core.commands_0.10.1.v20120523-1955.jar,plugins/org.eclipse.e4.ui.services_0.10.2.v20120726-172631.jar,plugins/org.eclipse.e4.ui.model.workbench_0.10.1.v20120523-1955.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346,plugins/org.eclipse.help_3.6.0.v20120521-2344.jar,plugins/org.eclipse.e4.ui.workbench_0.10.3.v20120822-140642.jar,plugins/org.eclipse.e4.ui.css.swt.theme_0.9.3.v20120806-170624.jar,plugins/org.eclipse.core.jobs_3.5.300.v20120622-204750.jar,plugins/org.eclipse.jface_3.8.101.v20120817-083647.jar,plugins/org.eclipse.osgi_3.8.1.v20120830-144521.jar,plugins/org.eclipse.e4.ui.workbench.renderers.swt_0.10.2.v20120814-175454.jar,plugins/org.eclipse.core.databinding_1.4.1.v20120521-2329.jar,plugins/org.eclipse.swt_3.100.1.v4234e.jar,plugins/org.eclipse.emf.ecore_2.8.1.v20120911-0500.jar,plugins/org.eclipse.e4.core.contexts_1.1.0.v20120828-170404.jar,plugins/org.eclipse.ui_3.103.0.v20120705-114351.jar,plugins/javax.inject_1.0.0.v20091030.jar,plugins/org.eclipse.emf.common_2.8.0.v20120911-0500.jar,plugins/org.eclipse.equinox.preferences_3.5.0.v20120522-1841.jar,plugins/org.eclipse.e4.ui.di_0.10.1.v20120523-1955.jar,plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar,plugins/org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar,plugins/org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar,plugins/org.eclipse.e4.ui.workbench.swt_0.10.2.v20120802-184737.jar,plugins/org.eclipse.ui.workbench_3.103.1.v20120906-120042.jar,plugins/org.eclipse.e4.ui.bindings_0.10.1.v20120716-173435.jar,plugins/org.apache.batik.util.gui_1.6.0.v201011041432.jar,plugins/org.eclipse.e4.core.di.extensions_0.11.0.v20120523-2004.jar" policy="USER-INCLUDE" updateable="true" url="file:/E:/eclipse_4.2_juno/">
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd/" version="3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBty3dqr/" version="1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBty3dqr">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.svnkit16" url="features/org.polarion.eclipse.team.svn.connector.svnkit16_3.0.0.I20121013-1700/" version="3.0.0.I20121013-1700">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.2.1.v20120814-120134-9JF7BHVGFyMveli1uX6aTH0q-eAap6PAgOP5mO/" version="4.2.1.v20120814-120134-9JF7BHVGFyMveli1uX6aTH0q-eAap6PAgOP5mO">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.svnkit17" url="features/org.polarion.eclipse.team.svn.connector.svnkit17_3.0.0.I20121013-1700/" version="3.0.0.I20121013-1700">
+</feature>
+<feature id="org.eclipse.team.svn.resource.ignore.rules.jdt.source" url="features/org.eclipse.team.svn.resource.ignore.rules.jdt.source_1.0.0.I20120601-1700/" version="1.0.0.I20120601-1700">
+</feature>
+<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_4.2.1.v20120814-120134-9JF7BHVGFyMveli1uX6aTH0q-eAap6PAgOP5mO/" version="4.2.1.v20120814-120134-9JF7BHVGFyMveli1uX6aTH0q-eAap6PAgOP5mO">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.8.1.v20120814-104540-8-8nFqpFNOfwKDRVz-tXOcL5d_83/" version="3.8.1.v20120814-104540-8-8nFqpFNOfwKDRVz-tXOcL5d_83">
+</feature>
+<feature id="org.eclipse.pde.source" url="features/org.eclipse.pde.source_3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd/" version="3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd">
+</feature>
+<feature id="org.eclipse.sdk" url="features/org.eclipse.sdk_4.2.1.v20120814-120134-7T7oDODQ-3Heq-afCDlg7T4xJuvxaC2ohMfCfB5451Rz0/" version="4.2.1.v20120814-120134-7T7oDODQ-3Heq-afCDlg7T4xJuvxaC2ohMfCfB5451Rz0">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asx2cpqz-T38/" version="1.1.0.v20120524-0542-8297FncFWmE7h4Asx2cpqz-T38">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBty3dqr/" version="1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBty3dqr">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.4.1.v20120726-051048-8R7xFOUFLWUl7MoSKV_RBXl27/" version="1.4.1.v20120726-051048-8R7xFOUFLWUl7MoSKV_RBXl27">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector" url="features/org.polarion.eclipse.team.svn.connector_3.0.0.I20121013-1700/" version="3.0.0.I20121013-1700">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature.source" url="features/org.eclipse.equinox.p2.extras.feature.source_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBty3dqr/" version="1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBty3dqr">
+</feature>
+<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_4.2.1.v20120814-120134-7IAPA8BrHQicS-rjP0GbqK780kMy/" version="4.2.1.v20120814-120134-7IAPA8BrHQicS-rjP0GbqK780kMy">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature.source" url="features/org.eclipse.equinox.p2.core.feature.source_1.1.0.v20120524-0542-8297FncFWmE7h4Asx2cpqz-T38/" version="1.1.0.v20120524-0542-8297FncFWmE7h4Asx2cpqz-T38">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.javahl16" url="features/org.polarion.eclipse.team.svn.connector.javahl16_3.0.0.I20120803-1700/" version="3.0.0.I20120803-1700">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.javahl17" url="features/org.polarion.eclipse.team.svn.connector.javahl17_3.0.0.I20120803-1700/" version="3.0.0.I20120803-1700">
+</feature>
+<feature id="org.eclipse.jdt.source" url="features/org.eclipse.jdt.source_3.8.1.v20120814-104540-8-8nFqpFNOfwKDRVz-tXOcL5d_83/" version="3.8.1.v20120814-104540-8-8nFqpFNOfwKDRVz-tXOcL5d_83">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.8.1.v20120911-0500/" version="2.8.1.v20120911-0500">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature.source" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBty3dqr/" version="1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBty3dqr">
+</feature>
+<feature id="org.eclipse.team.svn" url="features/org.eclipse.team.svn_1.0.0.I20120818-1700/" version="1.0.0.I20120818-1700">
+</feature>
+<feature id="org.eclipse.team.svn.revision.graph.source" url="features/org.eclipse.team.svn.revision.graph.source_1.0.0.I20120601-1700/" version="1.0.0.I20120601-1700">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.javahl16.win32" url="features/org.polarion.eclipse.team.svn.connector.javahl16.win32_3.0.0.I20120803-1700/" version="3.0.0.I20120803-1700">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.8.0.v20120911-0500/" version="2.8.0.v20120911-0500">
+</feature>
+<feature id="org.polarion.eclipse.team.svn.connector.javahl17.win32" url="features/org.polarion.eclipse.team.svn.connector.javahl17.win32_3.0.0.I20121013-1700/" version="3.0.0.I20121013-1700">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.2.1.v20120814-120134-7IAPA8BrHQicS-rjP0GbqK780kMy/" version="4.2.1.v20120814-120134-7IAPA8BrHQicS-rjP0GbqK780kMy">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.3.200.v20120525-1249-7B79FJJAkF7BF7VEH5IAJT/" version="1.3.200.v20120525-1249-7B79FJJAkF7BF7VEH5IAJT">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.1.0.v20120521-2329-8yFTIGIbGGduEZ6-7-jLx41nXj/" version="1.1.0.v20120521-2329-8yFTIGIbGGduEZ6-7-jLx41nXj">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGl9CKNP/" version="2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGl9CKNP">
+</feature>
+<feature id="org.eclipse.team.svn.sources" url="features/org.eclipse.team.svn.sources_1.0.0.I20120818-1700/" version="1.0.0.I20120818-1700">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGl9CKNP/" version="2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGl9CKNP">
+</feature>
+<feature id="org.eclipse.team.svn.mylyn.source" url="features/org.eclipse.team.svn.mylyn.source_1.0.0.I20120601-1700/" version="1.0.0.I20120601-1700">
+</feature>
+<feature id="org.eclipse.help.source" url="features/org.eclipse.help.source_1.4.1.v20120726-051048-8R7xFOUFLWUl7MoSKV_RBXl27/" version="1.4.1.v20120726-051048-8R7xFOUFLWUl7MoSKV_RBXl27">
+</feature>
+<feature id="org.eclipse.e4.rcp.source" url="features/org.eclipse.e4.rcp.source_1.1.0.v20120521-2329-8yFTIGIbGGduEZ6-7-jLx41nXj/" version="1.1.0.v20120521-2329-8yFTIGIbGGduEZ6-7-jLx41nXj">
+</feature>
+<feature id="org.eclipse.team.svn.nl1.sources" url="features/org.eclipse.team.svn.nl1.sources_1.0.0.I20120818-1700/" version="1.0.0.I20120818-1700">
+</feature>
+<feature id="org.eclipse.cvs.source" url="features/org.eclipse.cvs.source_1.3.200.v20120525-1249-7B79FJJAkF7BF7VEH5IAJT/" version="1.3.200.v20120525-1249-7B79FJJAkF7BF7VEH5IAJT">
+</feature>
+<feature id="org.eclipse.team.svn.source" url="features/org.eclipse.team.svn.source_1.0.0.I20120818-1700/" version="1.0.0.I20120818-1700">
+</feature>
+</site>
+</config>

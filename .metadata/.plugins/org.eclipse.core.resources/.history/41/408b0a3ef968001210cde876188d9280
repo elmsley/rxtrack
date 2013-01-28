@@ -1,0 +1,13 @@
+package com.rxtrack.model;
+
+public class Lookups {
+	private static Lookups instance;
+	
+	public static synchronized Lookups getInstance() {
+		if (instance != null) {
+			return instance;
+		}
+		instance = new Lookups();
+		return instance;
+	}
+}

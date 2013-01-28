@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.polarion.eclipse.team.svn.connector.javahl17;singleton:=true
+Bundle-Version: 3.0.0.I20120601-1700
+Bundle-Activator: org.polarion.team.svn.connector.javahl.JavaHLPlugin
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: J2SE-1.5, JavaSE-1.6
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Export-Package: org.polarion.team.svn.connector.javahl
+Require-Bundle: org.eclipse.core.runtime, 
+ org.eclipse.team.svn.core;bundle-version="[0.7.9.I20120413-1700,2.0.0)"
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1359262085727" transient="true" version="3.0">
+<site enabled="true" list="rxtrack_dev/RxTrack/" policy="USER-INCLUDE" updateable="true" url="file:/E:/">
+</site>
+<site enabled="true" list="plugins/org.eclipse.jface.databinding_1.3.1.M20090826-0800.jar,plugins/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar,plugins/org.eclipse.equinox.app_1.2.1.R35x_v20091203.jar,plugins/org.eclipse.swt.win32.win32.x86_3.5.2.v3557f.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.v20090429-1800,plugins/com.ibm.icu_4.0.1.v20090822.jar,plugins/org.eclipse.core.expressions_3.4.101.R35x_v20100209.jar,plugins/org.eclipse.jface_3.5.2.M20100120-0800.jar,plugins/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar,plugins/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar,plugins/org.eclipse.help_3.4.1.v20090805_35x.jar,plugins/org.eclipse.ui.workbench_3.5.2.M20100113-0800.jar,plugins/org.eclipse.core.commands_3.5.0.I20090525-2000.jar,plugins/org.eclipse.ui_3.5.2.M20100120-0800.jar,plugins/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar,plugins/org.eclipse.osgi_3.5.2.R35x_v20100126.jar,plugins/org.eclipse.swt_3.5.2.v3557f.jar,plugins/org.eclipse.core.databinding_1.2.0.M20090819-0800.jar,plugins/org.eclipse.equinox.registry_3.4.100.v20090520-1800.jar,plugins/org.eclipse.core.databinding.observable_1.2.0.M20090902-0800.jar,plugins/org.eclipse.core.runtime_3.5.0.v20090525.jar,plugins/org.eclipse.core.databinding.property_1.2.0.M20090819-0800.jar" policy="USER-INCLUDE" updateable="true" url="file:/C:/RTC-Client-Win-3.0.1.1/RTC3.0.1.1/jazz/client/eclipse/">
+<feature id="org.eclipse.emf.codegen" url="features/org.eclipse.emf.codegen_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.team.repository.client.jfs.feature" url="features/com.ibm.team.repository.client.jfs.feature_1.0.201.v20110922_1848/" version="1.0.201.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.repository.common.jfs.feature" url="features/com.ibm.team.repository.common.jfs.feature_1.0.201.v20110922_1848/" version="1.0.201.v20110922_1848">
+</feature>
+<feature id="com.ibm.teamz.metadata.scanner.common.feature" url="features/com.ibm.teamz.metadata.scanner.common.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.apt.client.rtc.feature" url="features/com.ibm.team.apt.client.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.teamp.scm.common.rtc.feature" url="features/com.ibm.teamp.scm.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamp.aix.resourcedef.ui.feature" url="features/com.ibm.teamp.aix.resourcedef.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.deployment.common.feature" url="features/com.ibm.team.enterprise.deployment.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.reports.ide.rtc.feature" url="features/com.ibm.team.reports.ide.rtc.feature_3.0.2.v20110831_0247/" version="3.0.2.v20110831_0247">
+</feature>
+<feature id="com.ibm.teamp.metadata.util.feature" url="features/com.ibm.teamp.metadata.util.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="org.mortbay.jetty.jasper.feature" url="features/org.mortbay.jetty.jasper.feature_1.0.0.v20091004_1948/" version="1.0.0.v20091004_1948">
+</feature>
+<feature id="com.ibm.teamz.zcomponent.feature" url="features/com.ibm.teamz.zcomponent.feature_1.0.1.v20110907_0402/" version="1.0.1.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.build.ide.rtc.feature" url="features/com.ibm.team.build.ide.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.team.workitem.client.rtc.feature" url="features/com.ibm.team.workitem.client.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.calm.foundation.rcp.rtc.feature" url="features/com.ibm.team.calm.foundation.rcp.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.etools.iseries.toolbox" url="features/com.ibm.etools.iseries.toolbox_8.0.1.v20110511_2248/" version="8.0.1.v20110511_2248">
+</feature>
+<feature id="com.ibm.team.calm.foundation.common.rtc.feature" url="features/com.ibm.team.calm.foundation.common.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.team.workitem.java.common.rtc.feature" url="features/com.ibm.team.workitem.java.common.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.teamz.rdf.query.feature.common" url="features/com.ibm.teamz.rdf.query.feature.common_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="net.oauth.jfs.feature" url="features/net.oauth.jfs.feature_1.0.1.v20110922_1848/" version="1.0.1.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.foundation.common.jfs.feature" url="features/com.ibm.team.foundation.common.jfs.feature_1.0.300.v20110524_1821/" version="1.0.300.v20110524_1821">
+</feature>
+<feature id="com.ibm.team.filesystem.common.rtc.feature" url="features/com.ibm.team.filesystem.common.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.teamz.buildmap.feature.client" url="features/com.ibm.teamz.buildmap.feature.client_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.ibmi.langdef.common.feature" url="features/com.ibm.teamp.ibmi.langdef.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.langdef.feature.ide" url="features/com.ibm.teamz.langdef.feature.ide_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.5.2.R35x_v20100119-7Z7_FA2FDX-aXQYWqYDBz-z0qufo/" version="3.5.2.R35x_v20100119-7Z7_FA2FDX-aXQYWqYDBz-z0qufo">
+</feature>
+<feature id="com.ibm.teamp.filesystem.common.rtc.feature" url="features/com.ibm.teamp.filesystem.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.rational.connector.cq.ide.rtc.feature" url="features/com.ibm.rational.connector.cq.ide.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.team.reports.cshelp.feature" url="features/com.ibm.team.reports.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.team.reports.common.rtc.feature" url="features/com.ibm.team.reports.common.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.teamp.aix.resourcedef.client.feature" url="features/com.ibm.teamp.aix.resourcedef.client.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.enterprise.definitions.ui.feature" url="features/com.ibm.team.enterprise.definitions.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.apt.ide.rtc.feature" url="features/com.ibm.team.apt.ide.rtc.feature_3.0.2.v20110915_1725/" version="3.0.2.v20110915_1725">
+</feature>
+<feature id="com.ibm.teamz.dsdef.feature.common" url="features/com.ibm.teamz.dsdef.feature.common_1.0.1.v20110915_0224/" version="1.0.1.v20110915_0224">
+</feature>
+<feature id="com.ibm.org.eclipse.platform.R352patch" url="features/com.ibm.org.eclipse.platform.R352patch_1.0.1/" version="1.0.1">
+</feature>
+<feature id="com.ibm.teamz.dsdef.feature.client" url="features/com.ibm.teamz.dsdef.feature.client_1.0.1.v20110907_0402/" version="1.0.1.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.common.ui.feature" url="features/com.ibm.team.enterprise.common.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.rational.connector.cq.common.rtc.feature" url="features/com.ibm.rational.connector.cq.common.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="org.eclipse.xsd" url="features/org.eclipse.xsd_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.team.workitem.setup.junit.rtc.feature" url="features/com.ibm.team.workitem.setup.junit.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.dsdef.feature.ide" url="features/com.ibm.teamz.dsdef.feature.ide_1.0.1.v20110907_0402/" version="1.0.1.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.collaboration.jabber.rcp.rtc.feature" url="features/com.ibm.team.collaboration.jabber.rcp.rtc.feature_3.0.1.v20110915_0224/" version="3.0.1.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.metadata.scanner.client.feature" url="features/com.ibm.teamz.metadata.scanner.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.ccl.welcome.bits.feature" url="features/com.ibm.ccl.welcome.bits.feature_7.0.5.v20100107_0214/" version="7.0.5.v20100107_0214">
+</feature>
+<feature id="org.apache.commons.httpclient.jfs.feature" url="features/org.apache.commons.httpclient.jfs.feature_1.0.0.v20101110_2242/" version="1.0.0.v20101110_2242">
+</feature>
+<feature id="com.ibm.ccl.preferenceharvester.feature" url="features/com.ibm.ccl.preferenceharvester.feature_1.0.6.v20110526_1632/" version="1.0.6.v20110526_1632">
+</feature>
+<feature id="com.ibm.teamp.ibmi.metadata.collection.client.feature" url="features/com.ibm.teamp.ibmi.metadata.collection.client.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.rational.buildforge.common.rtc.feature" url="features/com.ibm.rational.buildforge.common.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.team.connector.client.rtc.feature" url="features/com.ibm.team.connector.client.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.team.scm.svn.common.rtc.feature" url="features/com.ibm.team.scm.svn.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.calm.foundation.client.rtc.feature" url="features/com.ibm.team.calm.foundation.client.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.team.apt.cshelp.feature" url="features/com.ibm.team.apt.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.team.enterprise.automation.common.feature" url="features/com.ibm.team.enterprise.automation.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.workitem.rcp.rtc.feature" url="features/com.ibm.team.workitem.rcp.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.scm.admin.rtc.feature" url="features/com.ibm.team.scm.admin.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamp.build.common.rtc.feature" url="features/com.ibm.teamp.build.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.tpt.ide.rtc.feature" url="features/com.ibm.team.tpt.ide.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.tpt.common.rtc.feature" url="features/com.ibm.team.tpt.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.workitem.cshelp.feature" url="features/com.ibm.team.workitem.cshelp.feature_3.0.1.v20111005_0441/" version="3.0.1.v20111005_0441">
+</feature>
+<feature id="com.ibm.team.enterprise.promotion.feature.ui" url="features/com.ibm.team.enterprise.promotion.feature.ui_3.0.2.v20110915_1725/" version="3.0.2.v20110915_1725">
+</feature>
+<feature id="com.ibm.team.build.setup.junit.rtc.feature" url="features/com.ibm.team.build.setup.junit.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.yourkit.profiler" url="features/com.yourkit.profiler_8.0.4140/" version="8.0.4140">
+</feature>
+<feature id="com.ibm.etools.iseries.projects.core" url="features/com.ibm.etools.iseries.projects.core_8.0.2.v20110511_2248/" version="8.0.2.v20110511_2248">
+</feature>
+<feature id="com.ibm.team.filesystem.cli.rtc.feature" url="features/com.ibm.team.filesystem.cli.rtc.feature_3.0.2.v20110831_0247/" version="3.0.2.v20110831_0247">
+</feature>
+<feature id="com.rational.clearquest.cqjni.rtc.feature" url="features/com.rational.clearquest.cqjni.rtc.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.teamp.filesystem.ide.rtc.feature" url="features/com.ibm.teamp.filesystem.ide.rtc.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.rdf.query.client.feature" url="features/com.ibm.team.enterprise.rdf.query.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.concert.feature" plugin-identifier="com.ibm.team.concert" url="features/com.ibm.team.concert.feature_3.0.2.v20111006_1909/" version="3.0.2.v20111006_1909">
+</feature>
+<feature id="com.ibm.team.collaboration.rcp.jfs.feature" url="features/com.ibm.team.collaboration.rcp.jfs.feature_1.0.2.v20110524_1821/" version="1.0.2.v20110524_1821">
+</feature>
+<feature id="com.ibm.team.enterprise.packaging.ui.feature" url="features/com.ibm.team.enterprise.packaging.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.scm.common.rtc.feature" url="features/com.ibm.team.scm.common.rtc.feature_3.0.2.v20110914_0303/" version="3.0.2.v20110914_0303">
+</feature>
+<feature id="com.ibm.team.scm.svn.client.rtc.feature" url="features/com.ibm.team.scm.svn.client.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.collaboration.chat.rcp.jfs.feature" url="features/com.ibm.team.collaboration.chat.rcp.jfs.feature_1.0.200.v20110524_1821/" version="1.0.200.v20110524_1821">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.collection.common.feature" url="features/com.ibm.team.enterprise.metadata.collection.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.langdef.feature.common" url="features/com.ibm.teamz.langdef.feature.common_1.0.1.v20110915_0224/" version="1.0.1.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.build.toolkit.rtc.feature" url="features/com.ibm.team.build.toolkit.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.team.process.integrations.rad.feature" url="features/com.ibm.team.process.integrations.rad.feature_3.0.2.v20110922_1848/" version="3.0.2.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.scanner.client.feature" url="features/com.ibm.team.enterprise.metadata.scanner.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.dashboard.rcp.jfs.feature" url="features/com.ibm.team.dashboard.rcp.jfs.feature_1.0.1.v20110524_1821/" version="1.0.1.v20110524_1821">
+</feature>
+<feature id="com.ibm.teamp.logging.rtc.feature" url="features/com.ibm.teamp.logging.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="org.eclipse.emf.ecore.edit" url="features/org.eclipse.emf.ecore.edit_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.ccl.ut.warcontainer.feature" url="features/com.ibm.ccl.ut.warcontainer.feature_3.0.1.v20110630_1624/" version="3.0.1.v20110630_1624">
+</feature>
+<feature id="com.ibm.ccl.welcome.bits.feature.uid.feature" url="features/com.ibm.ccl.welcome.bits.feature.uid.feature_1.0.2.v20100817_0101/" version="1.0.2.v20100817_0101">
+</feature>
+<feature id="com.ibm.teamp.ibmi.langdef.ui.feature" url="features/com.ibm.teamp.ibmi.langdef.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.aix.langdef.client.feature" url="features/com.ibm.teamp.aix.langdef.client.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.enterprise.promotion.feature.client" url="features/com.ibm.team.enterprise.promotion.feature.client_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.process.ide.jfs.feature" url="features/com.ibm.team.process.ide.jfs.feature_1.1.2.v20110922_1848/" version="1.1.2.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.enterprise.promotion.feature.common" url="features/com.ibm.team.enterprise.promotion.feature.common_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.ref.integrity.feature.ide" url="features/com.ibm.teamz.ref.integrity.feature.ide_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.draw2d" url="features/org.eclipse.draw2d_3.5.2.v20100111-1352-4417w311A223702A19/" version="3.5.2.v20100111-1352-4417w311A223702A19">
+</feature>
+<feature id="com.ibm.team.repository.rcp.rtc.feature" url="features/com.ibm.team.repository.rcp.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamp.aix.metadata.collection.client.feature" url="features/com.ibm.teamp.aix.metadata.collection.client.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.buildablesubset.feature.common" url="features/com.ibm.teamz.buildablesubset.feature.common_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.resourcedef.client.feature" url="features/com.ibm.team.enterprise.resourcedef.client.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.collaboration.cshelp.feature" url="features/com.ibm.team.collaboration.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.teamp.cshelp.feature" url="features/com.ibm.teamp.cshelp.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.filesystem.client.rtc.feature" url="features/com.ibm.team.filesystem.client.rtc.feature_3.0.2.v20110831_0247/" version="3.0.2.v20110831_0247">
+</feature>
+<feature id="com.hp.hpl.jena.rdf.feature" url="features/com.hp.hpl.jena.rdf.feature_1.0.0.v20110315_1935/" version="1.0.0.v20110315_1935">
+</feature>
+<feature id="com.ibm.teamz.supa.server.common.feature" url="features/com.ibm.teamz.supa.server.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.apache.lucene2.jfs.feature" url="features/com.ibm.team.apache.lucene2.jfs.feature_1.0.200.v20110524_1821/" version="1.0.200.v20110524_1821">
+</feature>
+<feature id="com.ibm.teamz.dependencyset.feature.client" url="features/com.ibm.teamz.dependencyset.feature.client_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.process.feature.common" url="features/com.ibm.team.enterprise.process.feature.common_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.build.ant.feature" url="features/com.ibm.teamz.build.ant.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.aix.langdef.common.feature" url="features/com.ibm.teamp.aix.langdef.common.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.enterprise.buildmap.common.feature" url="features/com.ibm.team.enterprise.buildmap.common.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.build.client.rtc.feature" url="features/com.ibm.team.build.client.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.team.reports.ide.jfs.feature" url="features/com.ibm.team.reports.ide.jfs.feature_1.0.1.v20110524_1821/" version="1.0.1.v20110524_1821">
+</feature>
+<feature id="com.ibm.teamz.buildablesubset.feature.client" url="features/com.ibm.teamz.buildablesubset.feature.client_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.connector.cq.cshelp.feature" url="features/com.ibm.team.connector.cq.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.team.apt.ide.server.shared.rtc.feature" url="features/com.ibm.team.apt.ide.server.shared.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.teamp.filesystem.client.rtc.feature" url="features/com.ibm.teamp.filesystem.client.rtc.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.emf.mapping.ecore" url="features/org.eclipse.emf.mapping.ecore_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.teamp.ibmi.langdef.client.feature" url="features/com.ibm.teamp.ibmi.langdef.client.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.5.2.R35x_v20100119-9SA0FxwFnoCU5XxWItFdXXb27BA6/" version="3.5.2.R35x_v20100119-9SA0FxwFnoCU5XxWItFdXXb27BA6">
+</feature>
+<feature id="com.ibm.teamz.migration.feature.ide" url="features/com.ibm.teamz.migration.feature.ide_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.interop.common.rtc.feature" url="features/com.ibm.team.interop.common.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.teamp.aix.langdef.ui.feature" url="features/com.ibm.teamp.aix.langdef.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.build.ide.rtc.feature" url="features/com.ibm.teamp.build.ide.rtc.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.ref.integrity.zresolvers.feature" url="features/com.ibm.teamz.ref.integrity.zresolvers.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.gef" url="features/org.eclipse.gef_3.5.2.v20100111-1352-777928194B66D5D476C33B2A/" version="3.5.2.v20100111-1352-777928194B66D5D476C33B2A">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.1.101.R35x_v20100125-7E79FGD9kKF67BPDZ7PKCE1911/" version="1.1.101.R35x_v20100125-7E79FGD9kKF67BPDZ7PKCE1911">
+</feature>
+<feature id="com.ibm.team.connector.common.rtc.feature" url="features/com.ibm.team.connector.common.rtc.feature_3.0.2.v20110913_1325/" version="3.0.2.v20110913_1325">
+</feature>
+<feature id="com.ibm.team.interop.rcp.rtc.feature" url="features/com.ibm.team.interop.rcp.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.deployment.client.feature" url="features/com.ibm.team.enterprise.deployment.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.apache.log4j.jfs.feature" url="features/com.ibm.team.apache.log4j.jfs.feature_1.0.0.v20101110_2242/" version="1.0.0.v20101110_2242">
+</feature>
+<feature id="org.tmatesoft.svnkit" url="features/org.tmatesoft.svnkit_1.1.4/" version="1.1.4">
+</feature>
+<feature id="com.ibm.team.filesystem.setup.junit.rtc.feature" url="features/com.ibm.team.filesystem.setup.junit.rtc.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.teamz.build.feature.ide" url="features/com.ibm.teamz.build.feature.ide_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.metadata.feature" url="features/com.ibm.teamz.metadata.feature_1.0.2.v20110907_0402/" version="1.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.ide.client.rtc.feature" url="features/com.ibm.teamp.ide.client.rtc.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.filesystem.rcp.rtc.feature" url="features/com.ibm.team.filesystem.rcp.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.teamz.mapping.feature" url="features/com.ibm.teamz.mapping.feature_1.0.1.v20110915_0224/" version="1.0.1.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.process.rcp.jfs.feature" url="features/com.ibm.team.process.rcp.jfs.feature_1.1.2.v20110922_1848/" version="1.1.2.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.rtc.scriptengine.rtc.feature" url="features/com.ibm.team.rtc.scriptengine.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.enterprise.buildmap.client.feature" url="features/com.ibm.team.enterprise.buildmap.client.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.process.feature.ui" url="features/com.ibm.team.enterprise.process.feature.ui_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.ccl.ua.wizards.feature" url="features/com.ibm.ccl.ua.wizards.feature_1.0.4.v20101004_1505/" version="1.0.4.v20101004_1505">
+</feature>
+<feature id="com.ibm.team.dashboard.common.jfs.feature" url="features/com.ibm.team.dashboard.common.jfs.feature_1.0.1.v20110524_1821/" version="1.0.1.v20110524_1821">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.collection.client.feature" url="features/com.ibm.team.enterprise.metadata.collection.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.metadata.query.ui.feature" url="features/com.ibm.teamz.metadata.query.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.scanner.common.feature" url="features/com.ibm.team.enterprise.metadata.scanner.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.dependencyset.feature.common" url="features/com.ibm.teamz.dependencyset.feature.common_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.zcomponent.ui.feature" url="features/com.ibm.teamz.zcomponent.ui.feature_1.0.2.v20110915_0224/" version="1.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.foundation.client.jfs.feature" url="features/com.ibm.team.foundation.client.jfs.feature_1.0.301.v20110922_1848/" version="1.0.301.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.enterprise.resourcedef.common.feature" url="features/com.ibm.team.enterprise.resourcedef.common.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="org.eclipse.emf.edit" url="features/org.eclipse.emf.edit_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.jazz.reports.ide.ui.cshelp.feature" url="features/com.ibm.jazz.reports.ide.ui.cshelp.feature_3.0.1.v20110621_0610/" version="3.0.1.v20110621_0610">
+</feature>
+<feature id="com.ibm.team.scm.cshelp.feature" url="features/com.ibm.team.scm.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.teamz.supa.client.feature" url="features/com.ibm.teamz.supa.client.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.common.feature" url="features/com.ibm.team.enterprise.common.feature_1.0.0.v20110623_0150/" version="1.0.0.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.connector.scm.cc.cshelp.feature" url="features/com.ibm.team.connector.scm.cc.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.ccl.common.splash.feature" url="features/com.ibm.ccl.common.splash.feature_1.0.0.v20100812_0101/" version="1.0.0.v20100812_0101">
+</feature>
+<feature id="com.ibm.team.enterprise.langdef.client.feature" url="features/com.ibm.team.enterprise.langdef.client.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.build.ant.sample.feature" url="features/com.ibm.teamz.build.ant.sample.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamz.definitions.feature.ui" url="features/com.ibm.teamz.definitions.feature.ui_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.collaboration.sametime.rcp.rtc.feature" url="features/com.ibm.team.collaboration.sametime.rcp.rtc.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.workitem.common.rtc.feature" url="features/com.ibm.team.workitem.common.rtc.feature_3.0.2.v20110926_2356/" version="3.0.2.v20110926_2356">
+</feature>
+<feature id="com.ibm.teamz.langdef.feature.client" url="features/com.ibm.teamz.langdef.feature.client_1.0.1.v20110907_0402/" version="1.0.1.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.welcome.feature" url="features/com.ibm.team.welcome.feature_3.0.1.v20110526_0444/" version="3.0.1.v20110526_0444">
+</feature>
+<feature id="com.ibm.team.enterprise.process.definitions.ide.rtc.feature" url="features/com.ibm.team.enterprise.process.definitions.ide.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.ccl.ua.generators.sitexml.feature" url="features/com.ibm.ccl.ua.generators.sitexml.feature_1.0.0.v20100722_0102/" version="1.0.0.v20100722_0102">
+</feature>
+<feature id="com.ibm.team.build.common.rtc.feature" url="features/com.ibm.team.build.common.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.ccl.ua.wizards.feature.uid.feature" url="features/com.ibm.ccl.ua.wizards.feature.uid.feature_1.0.2.v20101004_1505/" version="1.0.2.v20101004_1505">
+</feature>
+<feature id="com.ibm.team.process.common.jfs.feature" url="features/com.ibm.team.process.common.jfs.feature_1.1.2.v20110922_1848/" version="1.1.2.v20110922_1848">
+</feature>
+<feature id="com.ibm.teamz.common.feature" url="features/com.ibm.teamz.common.feature_1.0.0.v20110623_0150/" version="1.0.0.v20110623_0150">
+</feature>
+<feature id="org.eclipse.emf.mapping" url="features/org.eclipse.emf.mapping_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.teamz.rdf.query.feature.client" url="features/com.ibm.teamz.rdf.query.feature.client_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.ccl.feedreader.feature.uid.feature" url="features/com.ibm.ccl.feedreader.feature.uid.feature_1.0.2.v20100817_0101/" version="1.0.2.v20100817_0101">
+</feature>
+<feature id="com.ibm.team.rtc.common.rtc.feature" url="features/com.ibm.team.rtc.common.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6/" version="3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6">
+</feature>
+<feature id="com.ibm.team.rtc.client.feature" url="features/com.ibm.team.rtc.client.feature_3.0.2.RTC-I20111006-1106/" version="3.0.2.RTC-I20111006-1106">
+</feature>
+<feature id="com.ibm.team.process.definitions.ide.rtc.feature" url="features/com.ibm.team.process.definitions.ide.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.apt.common.rtc.feature" url="features/com.ibm.team.apt.common.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.query.common.feature" url="features/com.ibm.team.enterprise.metadata.query.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.deployment.ui.feature" url="features/com.ibm.team.enterprise.deployment.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.reports.common.jfs.feature" url="features/com.ibm.team.reports.common.jfs.feature_1.0.2.v20111005_1828/" version="1.0.2.v20111005_1828">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.collection.ide.feature" url="features/com.ibm.team.enterprise.metadata.collection.ide.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.scm.svn.ide.rtc.feature" url="features/com.ibm.team.scm.svn.ide.rtc.feature_3.0.2.v20110831_0247/" version="3.0.2.v20110831_0247">
+</feature>
+<feature id="com.ibm.teamz.fileagent.feature" url="features/com.ibm.teamz.fileagent.feature_1.0.2.v20110907_0402/" version="1.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.teamp.aix.resourcedef.common.feature" url="features/com.ibm.teamp.aix.resourcedef.common.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="org.eclipse.emf.codegen.ecore" url="features/org.eclipse.emf.codegen.ecore_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.1.2.R35x_v20100119-7e7eFAnFEx2X_fZltJhDjz-D/" version="1.1.2.R35x_v20100119-7e7eFAnFEx2X_fZltJhDjz-D">
+</feature>
+<feature id="org.eclipse.platform.R352patch" url="features/org.eclipse.platform.R352patch_1.0.1/" version="1.0.1">
+</feature>
+<feature id="com.ibm.team.interop.ide.rtc.feature" url="features/com.ibm.team.interop.ide.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.interop.client.rtc.feature" url="features/com.ibm.team.interop.client.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.packaging.common.feature" url="features/com.ibm.team.enterprise.packaging.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.tpt.client.rtc.feature" url="features/com.ibm.team.tpt.client.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.5.2.R35x_v20100210-0800-9hEiFzmFst-TiEn9hNYgDWg1XN8ulH_JvCNGB/" version="3.5.2.R35x_v20100210-0800-9hEiFzmFst-TiEn9hNYgDWg1XN8ulH_JvCNGB">
+</feature>
+<feature id="org.apache.http.jfs.feature" url="features/org.apache.http.jfs.feature_1.0.0.v20101110_2242/" version="1.0.0.v20101110_2242">
+</feature>
+<feature id="com.ibm.team.process.client.jfs.feature" url="features/com.ibm.team.process.client.jfs.feature_1.1.2.v20110922_1848/" version="1.1.2.v20110922_1848">
+</feature>
+<feature id="com.ibm.team.enterprise.rdf.query.common.feature" url="features/com.ibm.team.enterprise.rdf.query.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.teamz.build.feature.client" url="features/com.ibm.teamz.build.feature.client_0.6.1.v20110907_0402/" version="0.6.1.v20110907_0402">
+</feature>
+<feature id="net.jazz.ajax.jfs.feature" url="features/net.jazz.ajax.jfs.feature_1.0.3.v20110922_1848/" version="1.0.3.v20110922_1848">
+</feature>
+<feature id="com.ibm.teamp.scm.client.rtc.feature" url="features/com.ibm.teamp.scm.client.rtc.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.team.reports.client.jfs.feature" url="features/com.ibm.team.reports.client.jfs.feature_1.0.1.v20110524_1821/" version="1.0.1.v20110524_1821">
+</feature>
+<feature id="com.ibm.team.repository.rcp.common.rtc.feature" url="features/com.ibm.team.repository.rcp.common.rtc.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.rational.common.welcome.doc.feature" url="features/com.ibm.rational.common.welcome.doc.feature_7.6.0.v20110628_2212/" version="7.6.0.v20110628_2212">
+</feature>
+<feature id="com.ibm.teamp.metadata.query.ui.feature" url="features/com.ibm.teamp.metadata.query.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.langdef.common.feature" url="features/com.ibm.team.enterprise.langdef.common.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.packaging.client.feature" url="features/com.ibm.team.enterprise.packaging.client.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.enterprise.dependency.util.feature" url="features/com.ibm.team.enterprise.dependency.util.feature_3.0.1.v20110623_0150/" version="3.0.1.v20110623_0150">
+</feature>
+<feature id="com.ibm.team.apt.setup.junit.rtc.feature" url="features/com.ibm.team.apt.setup.junit.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_1.1.2.R35x_v20091106-7u6FbQFUAtsCKD5Fxz0qz0fb2932/" version="1.1.2.R35x_v20091106-7u6FbQFUAtsCKD5Fxz0qz0fb2932">
+</feature>
+<feature id="com.ibm.team.filesystem.ide.rtc.feature" url="features/com.ibm.team.filesystem.ide.rtc.feature_3.0.2.v20110902_0314/" version="3.0.2.v20110902_0314">
+</feature>
+<feature id="com.ibm.team.connector.ide.rtc.feature" url="features/com.ibm.team.connector.ide.rtc.feature_3.0.2.v20110831_0247/" version="3.0.2.v20110831_0247">
+</feature>
+<feature id="com.ibm.team.scm.svn.cshelp.feature" url="features/com.ibm.team.scm.svn.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+<feature id="com.ibm.teamz.buildmap.feature.common" url="features/com.ibm.teamz.buildmap.feature.common_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.5.0.v200906151043/" version="2.5.0.v200906151043">
+</feature>
+<feature id="com.ibm.ccl.feedreader.feature" url="features/com.ibm.ccl.feedreader.feature_1.0.0.v20091004_1948/" version="1.0.0.v20091004_1948">
+</feature>
+<feature id="com.ibm.team.scm.client.rtc.feature" url="features/com.ibm.team.scm.client.rtc.feature_3.0.2.v20110901_0306/" version="3.0.2.v20110901_0306">
+</feature>
+<feature id="com.ibm.team.workitem.ide.rtc.feature" url="features/com.ibm.team.workitem.ide.rtc.feature_3.0.2.v20110909_0225/" version="3.0.2.v20110909_0225">
+</feature>
+<feature id="com.ibm.team.enterprise.metadata.query.ui.feature" url="features/com.ibm.team.enterprise.metadata.query.ui.feature_3.0.2.v20110915_0224/" version="3.0.2.v20110915_0224">
+</feature>
+<feature id="com.ibm.team.enterprise.automation.ui.feature" url="features/com.ibm.team.enterprise.automation.ui.feature_3.0.2.v20110907_0402/" version="3.0.2.v20110907_0402">
+</feature>
+<feature id="com.ibm.team.build.cshelp.feature" url="features/com.ibm.team.build.cshelp.feature_3.0.1.v20111005_0441/" version="3.0.1.v20111005_0441">
+</feature>
+<feature id="com.ibm.team.platform.cshelp.feature" url="features/com.ibm.team.platform.cshelp.feature_3.0.1.v20110731_0443/" version="3.0.1.v20110731_0443">
+</feature>
+</site>
+</config>

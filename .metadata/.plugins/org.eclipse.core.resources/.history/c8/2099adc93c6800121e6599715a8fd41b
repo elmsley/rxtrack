@@ -1,0 +1,16 @@
+package com.rxtrack.ui.dialog;
+
+import org.eclipse.jface.viewers.TreePath;
+import org.eclipse.jface.viewers.Viewer;
+import org.eclipse.ui.dialogs.PatternFilter;
+
+public class CustomPatternFilter extends PatternFilter {
+
+	@Override
+	public Object[] filter(Viewer viewer, TreePath parentPath, Object[] elements) {
+		Object[] filtered = super.filter(viewer, parentPath, elements);
+		int i=0;
+		i++;
+		return filtered;
+	}
+}
