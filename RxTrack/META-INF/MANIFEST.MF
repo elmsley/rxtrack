@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RxTrack
+Bundle-SymbolicName: RxTrack;singleton:=true
+Bundle-Version: 3.0.0.qualifier
+Bundle-Activator: com.rxtrack.Activator
+Bundle-Vendor: Jason Mah
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/poi-3.6-20091214.jar,
+ lib/poi-ooxml-3.6-20091214.jar,
+ .,
+ lib/miglayout-3.7.1-swt.jar
