@@ -20,7 +20,6 @@
 <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.Script"/>
 <fullyQualifiedTypeName name="org.w3c.dom.NamedNodeMap"/>
-<fullyQualifiedTypeName name="com.rxtrack.model.Patient"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.InventoryItem"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.XMLHelper"/>
 <fullyQualifiedTypeName name="java.util.logging.FileHandler"/>
@@ -39,11 +38,14 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.SortedSet"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
-<fullyQualifiedTypeName name="org.apache.poi.util.StringUtil"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.XLSConstants"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.Lookups"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.rxtrack.model.PatientModelProvider"/>
+<fullyQualifiedTypeName name="com.rxtrack.model.MasterModel"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.apache.poi.util.StringUtil"/>
+<fullyQualifiedTypeName name="com.rxtrack.model.Patient"/>
 </qualifiedTypeNameHistroy>

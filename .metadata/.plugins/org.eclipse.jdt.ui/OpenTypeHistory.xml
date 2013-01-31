@@ -15,4 +15,7 @@
 <typeInfo handle="=RxTrack/C:\/RTC-Client-Win-3.0.1.1\/RTC3.0.1.1\/jazz\/client\/eclipse\/plugins\/org.eclipse.jface_3.5.2.M20100120-0800.jar&lt;org.eclipse.jface.viewers(ITableLabelProvider.class[ITableLabelProvider" modifiers="1537" timestamp="1323709805108"/>
 <typeInfo handle="=RxTrack/C:\/RTC-Client-Win-3.0.1.1\/RTC3.0.1.1\/jazz\/client\/eclipse\/plugins\/org.eclipse.ui.workbench_3.5.2.M20100113-0800.jar&lt;org.eclipse.ui.dialogs(PatternFilter.class[PatternFilter" modifiers="33" timestamp="1323709807078"/>
 <typeInfo handle="=RxTrack/src&lt;com.rxtrack.model{ReadExcel.java[ReadExcel" modifiers="1" timestamp="1359345190632"/>
+<typeInfo handle="=RxTrack/src&lt;com.rxtrack.actions{ExportScriptAction.java[ExportScriptAction" modifiers="1" timestamp="1358739928128"/>
+<typeInfo handle="=RxTrack/src&lt;com.rxtrack.actions{ExportInventoryAction.java[ExportInventoryAction" modifiers="1" timestamp="1358739928122"/>
+<typeInfo handle="=RxTrack/src&lt;com.rxtrack.ui.patient{PatientContentProvider.java[PatientContentProvider" modifiers="1" timestamp="1358739586368"/>
 </typeInfoHistroy>
