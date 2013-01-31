@@ -36,7 +36,9 @@ public class XMLHelper {
 	}
 
 	public String getElementValue(Element element, String tag) {
-		NodeList nodes = element.getElementsByTagName(tag).item(0).getChildNodes();
+		Node aNode = element.getElementsByTagName(tag).item(0);
+		if (aNode==null) return "";
+		NodeList nodes = aNode.getChildNodes();
 		Node node = (Node) nodes.item(0);
 		if (node==null) return "";
 		return node.getNodeValue();

@@ -9,6 +9,7 @@ public class XMLConstants {
 	public static final String CITY = "city";
 	public static final String NAME = "name";
 	public static final String ID = "id";
+	public static final String PATIENT_REF = "patientRef";
 	public static final String SIG = "sig";
 	public static final String PICS = "pics";
 	public static final String MITTE = "mitte";

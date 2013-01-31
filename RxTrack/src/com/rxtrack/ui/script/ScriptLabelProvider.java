@@ -4,6 +4,7 @@ import org.eclipse.jface.viewers.ITableLabelProvider;
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.swt.graphics.Image;
 
+import com.rxtrack.model.MasterModel;
 import com.rxtrack.model.Script;
 
 public class ScriptLabelProvider extends LabelProvider implements ITableLabelProvider {

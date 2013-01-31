@@ -76,8 +76,8 @@ public class Script {
 		if (isEmpty(date)) date = dString;
 		
 		if (patient!=null){
-			if (isEmpty(patient.getId())) patient.setId(dString);
-			if (isEmpty(patient.getName())) patient.setName(dString);
+			if (isEmpty(patient.getId())) patient.setId(dString); else patient.setId(patient.getId().trim());
+			if (isEmpty(patient.getName())) patient.setName(dString); else patient.setName(patient.getName().trim());
 		}
 	}
 }

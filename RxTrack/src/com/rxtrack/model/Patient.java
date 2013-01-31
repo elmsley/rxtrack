@@ -1,5 +1,7 @@
 package com.rxtrack.model;
 
+import org.apache.poi.util.StringUtil;
+
 public class Patient {
 	private String id = "";
 	private String name = "";
@@ -21,5 +23,22 @@ public class Patient {
 	}
 	public void setCity(String city) {
 		this.city = city;
+	}
+	
+	private String cleanString(String str){
+		if (str==null) return "";
+		return str.trim();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Patient){
+			Patient comparePatient = (Patient)obj;
+			if (cleanString(id).equals(cleanString(comparePatient.id)) &&
+				cleanString(name).equals(cleanString(comparePatient.name))){
+				return true;
+			}
+		}
+		return super.equals(obj);
 	}
 }

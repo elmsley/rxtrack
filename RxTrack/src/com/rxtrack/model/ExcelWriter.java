@@ -74,7 +74,7 @@ public class ExcelWriter {
 				row.createCell(9).setCellValue(s.getInventoryItem().getBin());
 
 				try {
-					row.createCell(2).setCellValue(Integer.parseInt(s.getPatient().getId()));
+//					row.createCell(2).setCellValue(Integer.parseInt(s.getPatient().getId()));
 					row.createCell(6).setCellValue(Integer.parseInt(s.getMitte()));
 					row.createCell(7).setCellValue(Integer.parseInt(s.getRx()));
 				} catch (Exception e) {
@@ -149,17 +149,17 @@ public class ExcelWriter {
 				row.createCell(5).setCellValue(s.getBin());
 				row.createCell(6).setCellValue(s.getPictures());
 
-				sheet1.autoSizeColumn(0);
-				sheet1.autoSizeColumn(1);
-				sheet1.autoSizeColumn(2);
-				sheet1.autoSizeColumn(3);
-				sheet1.autoSizeColumn(4);
-				sheet1.autoSizeColumn(5);
-				sheet1.autoSizeColumn(6);
-				sheet1.autoSizeColumn(7);
-				sheet1.autoSizeColumn(8);
-				sheet1.autoSizeColumn(9);
 			}
+			sheet1.autoSizeColumn(0);
+			sheet1.autoSizeColumn(1);
+			sheet1.autoSizeColumn(2);
+			sheet1.autoSizeColumn(3);
+			sheet1.autoSizeColumn(4);
+			sheet1.autoSizeColumn(5);
+			sheet1.autoSizeColumn(6);
+			sheet1.autoSizeColumn(7);
+			sheet1.autoSizeColumn(8);
+			sheet1.autoSizeColumn(9);
 
 			wb.write(fileOut);
 		    fileOut.close();

@@ -129,28 +129,30 @@ public class ScriptPersist {
 			 * Load the file append the element, and persist it.
 			 */
 		    Document doc = loadXML();
+			XMLHelper xmlHelper = XMLHelper.getInstance();
 		    Element rootElement = doc.getDocumentElement();
 				 
-			// script elements
-			Element script = doc.createElement("script");
-			rootElement.appendChild(script);
-			
-			XMLHelper xmlHelper = XMLHelper.getInstance();
-			xmlHelper.addAttribute(doc, script, XMLConstants.DATE, s.getDate());
-			xmlHelper.addAttribute(doc, script, XMLConstants.TIME, s.getTime());
-			xmlHelper.addAttribute(doc, script, XMLConstants.RX, s.getRx());
-			xmlHelper.addAttribute(doc, script, XMLConstants.MITTE, s.getMitte());
-			xmlHelper.addAttribute(doc, script, XMLConstants.PICS, s.getPics());
-
-			xmlHelper.addSubElement(doc, script, XMLConstants.SIG, s.getSig());
-			
+		    // Patient Element
 			Element patient = doc.createElement("patient");
-			script.appendChild(patient);
+			rootElement.appendChild(patient);
 			
 			xmlHelper.addAttribute(doc, patient, XMLConstants.ID, s.getPatient().getId());
 			xmlHelper.addAttribute(doc, patient, XMLConstants.NAME, s.getPatient().getName());
 			xmlHelper.addAttribute(doc, patient, XMLConstants.CITY, s.getPatient().getCity());
 
+		    // script elements
+			Element script = doc.createElement("script");
+			rootElement.appendChild(script);
+			
+			xmlHelper.addAttribute(doc, script, XMLConstants.DATE, s.getDate());
+			xmlHelper.addAttribute(doc, script, XMLConstants.TIME, s.getTime());
+			xmlHelper.addAttribute(doc, script, XMLConstants.RX, s.getRx());
+			xmlHelper.addAttribute(doc, script, XMLConstants.MITTE, s.getMitte());
+			xmlHelper.addAttribute(doc, script, XMLConstants.PICS, s.getPics());
+			xmlHelper.addSubElement(doc, script, XMLConstants.SIG, s.getSig());
+			xmlHelper.addSubElement(doc, script, XMLConstants.PATIENT_REF, s.getPatient().getId());
+
+			// inventory elements, child of script
 			Element inventoryItem = doc.createElement("inventoryitem");
 			script.appendChild(inventoryItem);
 			
@@ -215,13 +217,26 @@ public class ScriptPersist {
 	}
 
 	public List<Script> loadXMLForReading(){
+		XMLHelper xmlHelper = XMLHelper.getInstance();
 		List<Script> list = new ArrayList<Script>();
+		MasterModel.getInstance().getPatientList().clear();
 		
 		Document doc = loadXML();
+		NodeList nodeListPatient = doc.getElementsByTagName("patient");
+		for (int i=0;i<nodeListPatient.getLength();i++){
+			Node node = nodeListPatient.item(i);
+			if (node.getNodeType() == Node.ELEMENT_NODE) {
+				Element patientElement = (Element) node;
+				Patient patient = new Patient();
+				patient.setId(xmlHelper.getAttributeValue(patientElement, XMLConstants.ID));
+				patient.setName(xmlHelper.getAttributeValue(patientElement, XMLConstants.NAME));
+				patient.setCity(xmlHelper.getAttributeValue(patientElement, XMLConstants.CITY));
+				MasterModel.getInstance().getPatientList().add(patient);
+			}
+		}
+
 		NodeList nodeList = doc.getElementsByTagName("script");
-		
-		XMLHelper xmlHelper = XMLHelper.getInstance();
-		
+
 		for (int i=0;i<nodeList.getLength();i++){
 			Script s = new Script();
 			Node node = nodeList.item(i);
@@ -235,13 +250,8 @@ public class ScriptPersist {
 				s.setPics(xmlHelper.getAttributeValue(element, XMLConstants.PICS));
 
 				s.setSig(xmlHelper.getElementValue(element, XMLConstants.SIG));
-				
-				Element patientElement = (Element)element.getElementsByTagName("patient").item(0);
-				Patient patient = new Patient();
-				s.setPatient(patient);
-				patient.setId(xmlHelper.getAttributeValue(patientElement, XMLConstants.ID));
-				patient.setName(xmlHelper.getAttributeValue(patientElement, XMLConstants.NAME));
-				patient.setCity(xmlHelper.getAttributeValue(patientElement, XMLConstants.CITY));
+				String patientRef = xmlHelper.getElementValue(element, XMLConstants.PATIENT_REF);
+				s.setPatient(PatientModelProvider.getInstance().findById(patientRef));
 				
 				Element inventoryitem = (Element)element.getElementsByTagName("inventoryitem").item(0);
 				InventoryItem ii = new InventoryItem();

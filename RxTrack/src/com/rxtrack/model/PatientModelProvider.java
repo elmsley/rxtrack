@@ -32,4 +32,16 @@ public class PatientModelProvider {
 		return patientItems;
 	}
 
+	public Patient findById(String patientRef) {
+		refreshItems();
+		if (patientItems!=null){
+			for (Patient p : patientItems){
+				if (p.getId()!=null && p.getId().equals(patientRef)){
+					return p;
+				}
+			}
+		}
+		return null;
+	}
+
 }
