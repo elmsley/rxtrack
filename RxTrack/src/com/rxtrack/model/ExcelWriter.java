@@ -101,7 +101,7 @@ public class ExcelWriter {
 		}
 	}
 	
-	public boolean exportInventory(String directory){
+	public String exportInventory(String directory){
 		try {
 			Workbook wb = new HSSFWorkbook();
 
@@ -163,10 +163,10 @@ public class ExcelWriter {
 
 			wb.write(fileOut);
 		    fileOut.close();
-			return true;
+			return runningFileName;
 		} catch (Exception e) {
 			e.printStackTrace();
-			return false;
+			return "";
 		}
 	}
 }

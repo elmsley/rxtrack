@@ -1,7 +1,9 @@
-rxtrack
+RxTrack
 =======
 
 > Lightweight Drug Dosage Software
+
+
 
 Installation:
 -------------

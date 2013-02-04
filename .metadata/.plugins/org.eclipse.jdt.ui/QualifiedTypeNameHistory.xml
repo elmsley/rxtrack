@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="java.util.logging.SimpleFormatter"/>
 <fullyQualifiedTypeName name="java.util.Formatter"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="com.rxtrack.util.RxTrackLogger"/>
 <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
@@ -48,4 +47,5 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.apache.poi.util.StringUtil"/>
 <fullyQualifiedTypeName name="com.rxtrack.model.Patient"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
 </qualifiedTypeNameHistroy>

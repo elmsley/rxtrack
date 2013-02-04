@@ -1,5 +1,7 @@
 package com.rxtrack.actions;
 
+import java.util.logging.Logger;
+
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IStatusLineManager;
 import org.eclipse.jface.dialogs.MessageDialog;
@@ -15,6 +17,8 @@ public class ExportScriptAction extends Action {
     private final IWorkbenchWindow window;
     private IStatusLineManager slmgr;
 
+    private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+    
     public ExportScriptAction(String text, IWorkbenchWindow window, IStatusLineManager statuslinemgr) {
         super(text);
         this.window = window;
@@ -33,7 +37,9 @@ public class ExportScriptAction extends Action {
 		if (dirname!=null){
 			String exportedFile = ExcelWriter.getInstance().exportScripts(dirname);
 			if (!RxUtil.isEmpty(exportedFile)){
-				slmgr.setMessage("Exported to "+exportedFile+ ".");
+				String message = "Exported to "+exportedFile+ ".";
+				slmgr.setMessage(message);
+				LOGGER.info(message);
 			} else {
 				MessageDialog.openError(window.getShell(), "Error", "Can't export script to file to " + dirname + ".");
 			}

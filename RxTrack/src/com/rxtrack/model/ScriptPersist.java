@@ -35,8 +35,7 @@ import com.rxtrack.ui.preferences.PreferenceConstants;
 public class ScriptPersist {
 	private static ScriptPersist _instance = null;
 	
-
-	private final static Logger LOGGER = Logger.getLogger(ScriptPersist.class.getName()); 
+	private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME); 
 	
 	public static ScriptPersist getInstance(){
 		if (_instance==null){
@@ -179,7 +178,7 @@ public class ScriptPersist {
 	 
 			transformer.transform(source, result);
 	 
-			LOGGER.log(Level.INFO, "File saved!");
+			LOGGER.log(Level.INFO, "XML saved! Script #: "+s.getRx());
 		
 		  } catch (TransformerException tfe) {
 			tfe.printStackTrace();
@@ -211,6 +210,7 @@ public class ScriptPersist {
 	        
 	        //Close the output stream
 	        out.close();
+			LOGGER.log(Level.INFO, "CSV saved! Script #: "+s.getRx());
 	    }catch (Exception e){//Catch exception if any
 	      System.err.println("Error: " + e.getMessage());
 	    }	

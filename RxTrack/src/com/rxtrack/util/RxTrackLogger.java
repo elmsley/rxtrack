@@ -1,6 +1,5 @@
 package com.rxtrack.util;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;

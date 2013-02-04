@@ -112,6 +112,7 @@ public class View extends ViewPart {
 		blackColor = parent.getDisplay().getSystemColor(SWT.COLOR_BLACK);
 		greyColor = parent.getDisplay().getSystemColor(SWT.COLOR_GRAY);
 
+		// Check script file and popup warnings.
 		new MessagePopupAction("something", getViewSite().getWorkbenchWindow(), getViewSite().getActionBars().getStatusLineManager()).run();
 
 		store = Activator.getDefault().getPreferenceStore();

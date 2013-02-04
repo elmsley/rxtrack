@@ -1,5 +1,7 @@
 package com.rxtrack.actions;
 
+import java.util.logging.Logger;
+
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IStatusLineManager;
 import org.eclipse.jface.dialogs.MessageDialog;
@@ -9,12 +11,15 @@ import org.eclipse.ui.IWorkbenchWindow;
 
 import com.rxtrack.ICommandIds;
 import com.rxtrack.model.ExcelWriter;
+import com.rxtrack.util.RxUtil;
 
 public class ExportInventoryAction extends Action {
 	private final IWorkbenchWindow window;
     private IStatusLineManager slmgr;
 
-	public ExportInventoryAction(String text, IWorkbenchWindow window, IStatusLineManager statuslinemgr) {
+    private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+    
+    public ExportInventoryAction(String text, IWorkbenchWindow window, IStatusLineManager statuslinemgr) {
         super(text);
         this.window = window;
         // The id is used to refer to the action in a menu or toolbar
@@ -30,10 +35,13 @@ public class ExportInventoryAction extends Action {
     	dd.setText("Choose Excel to export scripts to:");
     	String dirname = dd.open();
 		if (dirname!=null){
-			if (ExcelWriter.getInstance().exportInventory(dirname)){
-				slmgr.setMessage("Exported to "+dirname+ ".");
+			String exportedFile = ExcelWriter.getInstance().exportInventory(dirname);
+			if (!RxUtil.isEmpty(exportedFile)){
+				String message = "Exported to "+exportedFile+ ".";
+				slmgr.setMessage(message);
+				LOGGER.info(message);
 			} else {
-				MessageDialog.openError(window.getShell(), "Error", "Can't export script to file.");
+				MessageDialog.openError(window.getShell(), "Error", "Can't export script to file to " + dirname + ".");
 			}
 		}
 	}
