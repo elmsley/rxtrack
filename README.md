@@ -23,3 +23,11 @@ Follow installation wizard prompts
 4.  Install RXTrack software
 
 Double-click on RxTrack3.0Installer.exe and follow instructions
+
+
+--
+Building notes:
+1. Open Product configuration (prodconfiguration.product) and export an exe structure in e:\rxtrack
+2. Install NSIS and run the script rxtrack.nsi
+3. Clear out c:\temp
+4. Run RxTrack3.0Installer.exe
