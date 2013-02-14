@@ -235,7 +235,7 @@
    <extension
          point="org.eclipse.ui.services">
       <sourceProvider
-            provider="rxtrack.AbstractSourceProvider">
+            provider="com.rxtrack.AbstractSourceProvider">
          <variable
                name="RxTrack.variable1"
                priorityLevel="workbench">

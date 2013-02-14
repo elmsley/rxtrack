@@ -42,6 +42,12 @@ public class MessagePopupAction extends Action {
 			List<List<DosageListItem>> myList = null;
 	    	myList = new ReadExcel().loadRxTrackFile(dfile);
 	    	String extra = "";
+	    	if (myList==null){
+	    		message = "Valid Dosage File needed.  Check Preferences.";
+	    		slmgr.setMessage(message);
+	    		LOGGER.info(message);
+	    		return;
+	    	}
 	    	if (myList.size()>1){
 				StringBuffer sb = new StringBuffer();
 				sb.append("Error processing standard dosage list found in (" + dfile).append(")\n");
